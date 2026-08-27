@@ -1169,3 +1169,92 @@ body {
   font-size: 8px;
   font-weight: 500;
 }
+
+/* ================================
+   HISTORY PAGE
+================================ */
+
+.app-container {
+  min-height: 100vh;
+  background: #f8f8ff;
+  color: #08256f;
+  position: relative;
+  padding-bottom: 90px;
+}
+
+.page {
+  width: 100%;
+  max-width: 560px;
+  min-height: calc(100vh - 90px);
+  margin: 0 auto;
+  padding: 28px 24px;
+  box-sizing: border-box;
+}
+
+.page-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  margin-bottom: 45px;
+}
+
+.page-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 700;
+  color: #08256f;
+}
+
+.page-header p {
+  margin: 6px 0 0;
+  font-size: 15px;
+  color: #526a9d;
+}
+
+.back-button {
+  border: none;
+  background: transparent;
+  color: #08256f;
+  font-size: 32px;
+  line-height: 1;
+  padding: 0;
+  cursor: pointer;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 55px 15px;
+}
+
+.empty-icon {
+  font-size: 34px;
+  color: #526a9d;
+  margin-bottom: 25px;
+}
+
+.empty-state h2 {
+  margin: 0 0 12px;
+  font-size: 24px;
+  color: #08256f;
+}
+
+.empty-state p {
+  margin: 0 0 28px;
+  font-size: 15px;
+  color: #526a9d;
+}
+
+.empty-state .primary-button {
+  border: none;
+  border-radius: 12px;
+  background: #4d55f5;
+  color: white;
+  padding: 15px 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.empty-state .primary-button:hover {
+  opacity: 0.9;
+}

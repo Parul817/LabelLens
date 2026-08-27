@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import HomePage from "./pages/Home";
 import Camera from "./pages/Camera";
+import History from "./pages/History";
 import Processing from "./pages/Processing";
 import Results from "./pages/Results";
 import IngredientReport from "./pages/IngredientReport";
@@ -12,10 +13,6 @@ import IngredientDetails from "./pages/IngredientDetails";
 
 function CompareProducts() {
   return <h1>Compare Products</h1>;
-}
-
-function History() {
-  return <h1>History</h1>;
 }
 
 function Profile() {
